@@ -29,10 +29,7 @@ the provided site architecture.
 
 __Feed sources:__
 
-Give the user the ability to pull from a multiple news sources. Here are two news sources we suggest:
-
-- [NPR One](http://dev.npr.org/)
-- [Hearst publishing group](http://developer.hearst.com/) (Cosmopolitan, Elle, Popular Mechanics, Road and Track, etc.)
+Give the user the ability to pull from a multiple news sources. [Here](https://en.wikipedia.org/wiki/List_of_news_media_APIs) is a list of several.
 
 You should also feel free to use other news APIs; however, you will find that many APIs that do not support either [CORS](https://en.wikipedia.org/wiki/Cross-origin_resource_sharing) or [JSONp](https://en.wikipedia.org/wiki/JSONP) will result in a cross-domain restriction error ("No 'Access-Control-Allow-Origin' header is present...") in the browser. To get around this, you can use the following proxy server to filter your API requests.
 
@@ -123,20 +120,20 @@ __Additional UI interaction rules:__
   - Most of the your will be done on the __app.js__ file. You may update
   the index.html and style.css files if you would like to further customize your
   app.
-* A 5-10 minute **presentation** including 3 technical hurdles, 2 new things you learned, Q&A.
+* A 5 minute show & tell including 3 technical hurdles, 2 new things you learned, Q&A.
 
 ---
 
 ### Getting Started
 
 Begin by "forking" the starter code repository. You can do so by clicking the "Fork" icon on
-the top right of [this](https://github.com/generalassembly-studio/JS-Unit-2-Project-Starter-Code) page. Once
+the top right of [this]https://github.com/sonylnagale/jsr-12 page. Once
 complete, clone the repository to your computer by running the following
 commands:
 
 ```
 cd ~/Sites/
-git clone https://github.com/<your-username-here>/feedr.git
+git clone https://github.com/<your-username-here>/jsr-12.git feedr
 cd feedr
 ```
 
@@ -150,7 +147,7 @@ git commit -m "A description of what was added"
 git push -u origin master
 ```
 
-Here are some sugestions on where to start:
+Here are some suggestions on where to start:
 
 - Start by adding all the DOM functionality first.
 - Map out all of the needed fields/properties from each respective feed.
@@ -182,7 +179,7 @@ Here are some sugestions on where to start:
 
 ### Project Feedback + Evaluation
 
-Students will fork the "feedr" application and commit their code as they
+Students will fork the `feedr` application and commit their code as they
 complete pieces of functionality.
 
 The instructional team will grade each technical requirement and provide a
@@ -197,13 +194,3 @@ numeric grade on a scale.
 - __Code Quality__: Did you follow code style guidance and best practices
   covered in class, such as spacing, modularity, and semantic naming? Did you
   comment your code as your instructors have in class?
-- __Total__: Your instructors will give you a total score on your project
-  between:
-
-Score | Expectations
------ | ------------
-**0** | _Does not meet expectations._
-**1** | _Meets expectactions, good job!_
-**2** | _Exceeds expectations, you wonderful creature, you!_
-
-This will serve as a helpful overall gauge of whether you met the project goals, but __the more important scores are the individual ones__ above, which can help you identify where to focus your efforts for the next project!
