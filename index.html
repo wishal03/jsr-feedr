@@ -23,14 +23,15 @@
             <a href="#"><h1>Feedr</h1></a>
             <nav>
               <ul>
-                <li><a href="#">News Source: <span>Source Name</span></a>
+                <li id="dropDown"><a href="#">News Source: <span id = "source">Source Name</span></a>
                   <ul>
-                      <li><a href="#">Source 1</a></li>
-                      <li><a href="#">Source 2</a></li>
-                      <li><a href="#">Source 3</a></li>
+                      <li id="OMDB"><a href="#">OMDB</a></li>
+                      <li id="Guardian"><a href="#">Guardian</a></li>
+                      <li id="Books"><a href="#">Books</a></li>
                   </ul>
                 </li>
               </ul>
+                
               <section id="search">
                 <input type="text" name="name" value="">
                 <a href="#"><img src="images/search.png" alt="" /></a>
@@ -39,74 +40,91 @@
             <div class="clearfix"></div>
           </section>
         </header>
+        
+        
         <div id="popUp" class="loader hidden">
-          <a href="#" class="closePopUp">X</a>
+          <a id="popUpClose" href="#" class="closePopUp">X</a>
           <div class="container">
-            <h1>Article title here</h1>
-            <p>
+            <h1 id="popUpH1">Article title here</h1>
+            <p id="popUpp">
               Article description/content here.
             </p>
-            <a href="#" class="popUpAction" target="_blank">Read more from source</a>
+            <a id="RMFS" href="#" class="popUpAction" target="_blank">Read more from source</a>
           </div>
         </div>
+        
+        
         <section id="main" class="container">
+            
           <article class="article">
             <section class="featuredImage">
-              <img src="images/article_placeholder_1.jpg" alt="" />
+              <img id="img1" />
             </section>
             <section class="articleContent">
-                <a href="#"><h3>Test article title</h3></a>
-                <h6>Lifestyle</h6>
+                <a href="#"><h3 id="A1Title">Test article title</h3></a>
+                <h6 id="A1desc">Lifestyle</h6>
             </section>
             <section class="impressions">
-              526
+              <h7 id="number1"></h7>
             </section>
             <div class="clearfix"></div>
           </article>
+            
+            
+            
           <article class="article">
             <section class="featuredImage">
-              <img src="images/article_placeholder_2.jpg" alt="" />
+              <img id="img2" />
             </section>
             <section class="articleContent">
-                <a href="#"><h3>Test article title</h3></a>
-                <h6>Lifestyle</h6>
+                <a href="#"><h3 id="A2Title">Test article title</h3></a>
+                <h6 id="A2desc">Lifestyle</h6>
             </section>
             <section class="impressions">
-              526
+              <h7 id="number2"></h7>
             </section>
             <div class="clearfix"></div>
           </article>
+            
+            
           <article class="article">
             <section class="featuredImage">
-              <img src="images/article_placeholder_2.jpg" alt="" />
+              <img id="img3" />
             </section>
             <section class="articleContent">
-                <a href="#"><h3>Test article title</h3></a>
-                <h6>Lifestyle</h6>
+                <a href="#"><h3 id="A3Title">Test article title</h3></a>
+                <h6 id="A3desc">Lifestyle</h6>
             </section>
             <section class="impressions">
-              526
+              <h7 id="number3"></h7>
             </section>
             <div class="clearfix"></div>
           </article>
+            
+            
           <article class="article">
             <section class="featuredImage">
-              <img src="images/article_placeholder_1.jpg" alt="" />
+              <img id="img4" />
             </section>
             <section class="articleContent">
-                <a href="#"><h3>Test article title</h3></a>
-                <h6>Lifestyle</h6>
+                <a href="#"><h3 id="A4Title">Test article title</h3></a>
+                <h6 id="A4desc">Lifestyle</h6>
             </section>
             <section class="impressions">
-              526
+              <h7 id="number4"></h7>
             </section>
             <div class="clearfix"></div>
           </article>
+            
+            
         </section>
 
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
         <script src="js/app.js"></script>
+        <script src="js/app1.js"></script>
+        <script src="js/app2.js"></script>
+        <script src="js/master.js"></script>
 
     </body>
 </html>
